@@ -1,11 +1,11 @@
 puts "What is your first name?"
 
-name = gets
+firstname = gets
 
-puts "Nice to meet you #{name}"
+puts "Nice to meet you #{firstname}"
 
 puts "What's your last name?"
 
-last_name = gets
+last_name = gets.chomp
 
 puts "Did you know that your last name reversed is #{last_name.reverse}"
